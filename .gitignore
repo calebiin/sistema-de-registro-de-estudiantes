@@ -19,9 +19,49 @@
 *.tar.gz
 *.rar
 
+# El wrapper de Gradle sí se versiona
+!gradle/wrapper/gradle-wrapper.jar
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# Android Studio / Gradle
+*.iml
+.gradle/
+build/
+/local.properties
+local.properties
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx/
+
+# Salidas de compilación
+*.apk
+*.ap_
+*.aab
+*.dex
+*.hprof
+
+# Firmas locales
+*.jks
+*.keystore
+
+# Configuración local del IDE
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/compiler.xml
+/.idea/markdown.xml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
+/.idea/shelf/
